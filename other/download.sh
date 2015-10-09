@@ -27,5 +27,5 @@ do
 	git commit -m 'Keep going'
 	git push newOne master
 	sleep 1
-	print "\033c"
+	printf "\033c"
 done
