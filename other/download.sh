@@ -1,3 +1,7 @@
+git add .
+	git commit -m 'Keep going'
+	git push newOne master
+read a
 URL='https://w3layouts.com/page/'
 preURL='https://w3layouts.com'
 temp=.`echo -n temp | sha512sum`
