@@ -30,7 +30,7 @@ do
 	echo "Completed page $i"
 	git add .
 	git commit -m 'Keep going'
-	git push newOne master
+	git push newOne master > gitLog
 	sleep 1
-	# printf "\033c"
+	printf "\033c"
 done
